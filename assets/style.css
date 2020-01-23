@@ -1,0 +1,44 @@
+#separator{
+    height: 3px;
+    background-color: #fcbe00;
+}
+.slide{
+    max-height: 95vh;
+    object-fit: cover;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#slide1-img{
+    filter: brightness(20%);
+}
+.slide-text{
+    font-size: 5rem;
+    color:white;
+}
+.slide2{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+#slide2-img{
+    filter: brightness(20%);
+}
+.slide3{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+#slide3-img{
+    filter: brightness(20%);
+}
+.btn{
+    border-radius: 0 ;
+    color: black !important;
+    font-weight: normal;
+}
